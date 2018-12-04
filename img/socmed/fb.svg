@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   height="50px"
+   version="1.1"
+   viewBox="0 0 50 50"
+   width="50px"
+   id="svg2"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="fb.svg">
+  <metadata
+     id="metadata13">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="936"
+     inkscape:window-height="664"
+     id="namedview11"
+     showgrid="false"
+     inkscape:zoom="8.52"
+     inkscape:cx="25"
+     inkscape:cy="25"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="Facebook" />
+  <title
+     id="title4" />
+  <defs
+     id="defs6" />
+  <g
+     fill="none"
+     fill-rule="evenodd"
+     id="Page-1"
+     stroke="none"
+     stroke-width="1"
+     style="fill:#f2f2f2">
+    <g
+       fill="#000000"
+       id="Facebook"
+       style="fill:#f2f2f2">
+      <path
+         d="m 26.81452,36 0,-11.001288 3.254225,0 0.431255,-3.791105 -3.68548,0 0.0055,-1.897484 c 0,-0.988779 0.100672,-1.518589 1.622505,-1.518589 l 2.034409,0 0,-3.791534 -3.254686,0 c -3.909401,0 -5.285409,1.839094 -5.285409,4.931871 l 0,2.276166 -2.436868,0 0,3.791104 2.436868,0 0,11.000859 z"
+         id="Oval-1"
+         style="fill:#f2f2f2"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccccsccsscccccc" />
+    </g>
+  </g>
+</svg>

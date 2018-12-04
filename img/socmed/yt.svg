@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   height="50px"
+   version="1.1"
+   viewBox="0 0 50 50"
+   width="50px"
+   id="svg2"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="yt.svg">
+  <metadata
+     id="metadata13">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1075"
+     inkscape:window-height="656"
+     id="namedview11"
+     showgrid="false"
+     inkscape:zoom="8.36"
+     inkscape:cx="20.215311"
+     inkscape:cy="20.215311"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="YouTube" />
+  <title
+     id="title4" />
+  <defs
+     id="defs6" />
+  <g
+     fill="none"
+     fill-rule="evenodd"
+     id="Page-1"
+     stroke="none"
+     stroke-width="1"
+     style="fill:#f2f2f2">
+    <g
+       fill="#000000"
+       id="YouTube"
+       style="fill:#f2f2f2">
+      <path
+         d="m 36.768327,30.765477 c -0.298499,1.297226 -1.359611,2.253709 -2.636414,2.396384 -3.024435,0.337945 -6.085518,0.339623 -9.133452,0.337945 -3.047654,0.0017 -6.109017,0 -9.133172,-0.337945 -1.277083,-0.142675 -2.337635,-1.099158 -2.635854,-2.396384 -0.424669,-1.847504 -0.424669,-3.863421 -0.424669,-5.765197 0,-1.902057 0.005,-3.918253 0.429425,-5.765757 0.298499,-1.297226 1.359051,-2.253989 2.635854,-2.396384 3.024435,-0.337945 6.085518,-0.339623 9.133452,-0.337945 3.047654,-0.0017 6.109017,0 9.133172,0.337945 1.277083,0.142395 2.338195,1.099158 2.636414,2.396384 0.424668,1.847504 0.422151,3.8637 0.422151,5.765757 0,1.901776 -0.0025,3.917693 -0.426907,5.765197 z M 22.804766,20.5 l 6.75,3.897114 -6.75,3.897115 z"
+         id="Oval-1"
+         style="fill:#f2f2f2"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cscccscccccsccccc" />
+    </g>
+  </g>
+</svg>

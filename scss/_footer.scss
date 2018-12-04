@@ -1,0 +1,26 @@
+.footer-top {
+	border-top: solid $color-yellow 6px;
+	h2 {
+		color : $color-light-grey !important;
+	}
+
+	img {
+		width: 80px;
+		height: 80px;
+	}	
+	.socmed-bottom {
+		
+		
+	}
+
+	a {
+		display: inline-block;
+		padding: 5px;
+		background: $color-yellow;
+		&:hover {
+			background: darken($color-yellow,15%);
+		}
+	}
+}
+
+
