@@ -3,22 +3,27 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto");
 @import url("https://fonts.googleapis.com/css?family=Architects+Daughter");
 /* line 1, ../scss/_nav.scss */
+#menuresv li {
+  padding: 15px 0 !important;
+}
+
+/* line 6, ../scss/_nav.scss */
 .menu-l {
   float: left !important;
 }
 
-/* line 5, ../scss/_nav.scss */
+/* line 10, ../scss/_nav.scss */
 .menu-c {
   float: right !important;
 }
 
-/* line 10, ../scss/_nav.scss */
+/* line 15, ../scss/_nav.scss */
 .uk-navbar-toggle {
   min-height: 50px !important;
   float: right;
 }
 
-/* line 15, ../scss/_nav.scss */
+/* line 20, ../scss/_nav.scss */
 #nav-frame {
   background: #222222;
   border-bottom: solid #ecc640 6px;
@@ -29,7 +34,7 @@
   top: 0px;
 }
 
-/* line 25, ../scss/_nav.scss */
+/* line 30, ../scss/_nav.scss */
 h2.top-title {
   font-size: 2em !important;
   font-family: 'Architects Daughter', cursive !important;
@@ -37,18 +42,18 @@ h2.top-title {
   margin: 0;
 }
 
-/* line 33, ../scss/_nav.scss */
+/* line 38, ../scss/_nav.scss */
 .socmed-top img {
   width: 40px !important;
   height: 40px !important;
 }
 
-/* line 39, ../scss/_nav.scss */
+/* line 44, ../scss/_nav.scss */
 .uk-navbar-container {
   height: 60px !important;
 }
 
-/* line 44, ../scss/_nav.scss */
+/* line 49, ../scss/_nav.scss */
 .uk-navbar-nav a {
   font-weight: 400 !important;
   min-height: 60px !important;
@@ -56,25 +61,25 @@ h2.top-title {
   font-size: 18px !important;
   color: #ecc640 !important;
 }
-/* line 51, ../scss/_nav.scss */
+/* line 56, ../scss/_nav.scss */
 .uk-navbar-nav a:hover {
   background: #ecc640;
   color: #fff !important;
 }
 
-/* line 59, ../scss/_nav.scss */
+/* line 64, ../scss/_nav.scss */
 .uk-navbar-dropdown {
   margin-top: 0 !important;
   padding: 15px !important;
 }
-/* line 63, ../scss/_nav.scss */
+/* line 68, ../scss/_nav.scss */
 .uk-navbar-dropdown a {
   min-height: 30px !important;
   font-size: 14px !important;
   color: #15171D !important;
   font-weight: 400;
 }
-/* line 70, ../scss/_nav.scss */
+/* line 75, ../scss/_nav.scss */
 .uk-navbar-dropdown a:hover {
   background: none;
   color: #ecc640 !important;
@@ -180,6 +185,48 @@ h4 {
   color: #15171D;
 }
 
+/* line 1, ../scss/_product.scss */
+.frame {
+  position: relative;
+  width: 100%;
+  margin-bottom: 40px !important;
+}
+/* line 4, ../scss/_product.scss */
+.frame img {
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  opacity: .8;
+  width: 100% !important;
+  height: auto !important;
+}
+/* line 10, ../scss/_product.scss */
+.frame span {
+  text-align: center;
+  color: #fff;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  background-color: rgba(150, 28, 28, 0.6);
+  padding: 5px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+/* line 28, ../scss/_product.scss */
+.frame:hover span {
+  background-color: rgba(150, 28, 28, 0.9);
+}
+/* line 29, ../scss/_product.scss */
+.frame:hover img {
+  opacity: 1;
+}
+
 /* line 1, ../scss/_footer.scss */
 .footer-top {
   border-top: solid #ecc640 6px;
@@ -205,39 +252,44 @@ h4 {
 }
 
 @media (max-width: 640px) {
-  /* line 3, ../scss/_resv.scss */
+  /* line 2, ../scss/_resv.scss */
+  body {
+    padding-top: 50px !important;
+  }
+
+  /* line 5, ../scss/_resv.scss */
   .uk-navbar-container {
     position: fixed;
   }
 
-  /* line 9, ../scss/_resv.scss */
+  /* line 11, ../scss/_resv.scss */
   .main-menu {
     display: none !important;
   }
 
-  /* line 16, ../scss/_resv.scss */
+  /* line 18, ../scss/_resv.scss */
   .menu-l, .menu-r, .menu-c {
     display: block !important;
     margin: 0 !important;
   }
 
-  /* line 22, ../scss/_resv.scss */
+  /* line 24, ../scss/_resv.scss */
   .socmed-top img {
     height: 30px !important;
     width: 30px !important;
   }
 
-  /* line 27, ../scss/_resv.scss */
+  /* line 29, ../scss/_resv.scss */
   .footer-top h2 {
     font-size: 14px;
   }
-  /* line 31, ../scss/_resv.scss */
+  /* line 33, ../scss/_resv.scss */
   .footer-top img {
     width: 40px;
     height: 40px;
   }
 
-  /* line 38, ../scss/_resv.scss */
+  /* line 40, ../scss/_resv.scss */
   article img {
     display: none;
   }
@@ -15114,31 +15166,31 @@ iframe.uk-cover {
   }
 }
 /* this was trigger on and off during offcanvas animation */
-/* line 11, ../scss/main.scss */
+/* line 14, ../scss/main.scss */
 .uk-offcanvas {
   display: block;
 }
 
 /* i just add this to my css to support the transform CSS effect */
-/* line 14, ../scss/main.scss */
+/* line 17, ../scss/main.scss */
 .uk-offcanvas-bar {
   transition: all 300ms ease-out;
 }
 
-/* line 16, ../scss/main.scss */
+/* line 19, ../scss/main.scss */
 * {
   font-family: "Oswald", Helvetica, Arial, sans-serif !important;
   font-weight: 400;
   letter-spacing: 1px;
 }
 
-/* line 22, ../scss/main.scss */
+/* line 25, ../scss/main.scss */
 .uk-search-default {
   margin-top: 30px;
   width: 100% !important;
 }
 
-/* line 28, ../scss/main.scss */
+/* line 31, ../scss/main.scss */
 .videowrapper {
   position: relative;
   width: 100%;
@@ -15147,7 +15199,7 @@ iframe.uk-cover {
   margin-bottom: 20px;
 }
 
-/* line 36, ../scss/main.scss */
+/* line 39, ../scss/main.scss */
 .video {
   position: absolute;
   top: 0;
@@ -15156,22 +15208,22 @@ iframe.uk-cover {
   height: 100%;
 }
 
-/* line 45, ../scss/main.scss */
+/* line 48, ../scss/main.scss */
 body {
   padding-top: 80px;
 }
 
-/* line 50, ../scss/main.scss */
+/* line 53, ../scss/main.scss */
 .uk-list > li:nth-child(n+2) {
   margin-top: 0;
 }
 
-/* line 54, ../scss/main.scss */
+/* line 57, ../scss/main.scss */
 #content {
   padding: 30px 0;
 }
 
-/* line 58, ../scss/main.scss */
+/* line 61, ../scss/main.scss */
 .main-title {
   font-size: 2em;
   letter-spacing: 2px;
@@ -15181,12 +15233,12 @@ body {
   padding-left: 15px;
 }
 
-/* line 67, ../scss/main.scss */
+/* line 70, ../scss/main.scss */
 .widget {
   padding-bottom: 20px;
 }
 
-/* line 72, ../scss/main.scss */
+/* line 75, ../scss/main.scss */
 a.category {
   text-align: center;
   display: block;
@@ -15195,23 +15247,23 @@ a.category {
   background: #ecc640;
   color: #202121 !important;
 }
-/* line 81, ../scss/main.scss */
+/* line 84, ../scss/main.scss */
 a.category:hover {
   background: #e2b517 !important;
 }
 
-/* line 87, ../scss/main.scss */
+/* line 90, ../scss/main.scss */
 footer .footer-top {
   color: #BFC7C6;
   padding: 50px 0;
   background: #292a2a;
 }
-/* line 93, ../scss/main.scss */
+/* line 96, ../scss/main.scss */
 footer .footer-bottom {
   padding: 8px;
   background-color: #202121;
 }
-/* line 97, ../scss/main.scss */
+/* line 100, ../scss/main.scss */
 footer .footer-bottom p {
   font-family: "Arial", sans-serif !important;
   font-size: 12px !important;

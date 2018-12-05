@@ -1,5 +1,7 @@
 @media (max-width: 640px) {
-  
+  body {
+    padding-top: 50px !important;
+  }
   .uk-navbar-container {
     // height: 30px !important;
     position: fixed;
