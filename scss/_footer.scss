@@ -1,12 +1,14 @@
 .footer-top {
 	border-top: solid $color-yellow 6px;
 	h2 {
+		font-size: 20px;
 		color : $color-light-grey !important;
+		margin-bottom: 10px;
 	}
 
 	img {
-		width: 80px;
-		height: 80px;
+		width: 50px;
+		height: 50px;
 	}	
 	.socmed-bottom {
 		
@@ -19,6 +21,28 @@
 		background: $color-yellow;
 		&:hover {
 			background: darken($color-yellow,15%);
+		}
+	}
+}
+
+
+
+ul#support {
+	margin:0; 
+	margin: 0;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+
+
+	li {
+		padding: 10px;
+		list-style: none;
+
+		img {
+			width: 150px;
+			height: auto;
 		}
 	}
 }

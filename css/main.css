@@ -185,6 +185,31 @@ h4 {
   color: #15171D;
 }
 
+/* line 2, ../scss/_brand-info.scss */
+.brand-info {
+  margin-bottom: 40px;
+  padding: 15px;
+  border: solid 1px #e3e3e3;
+}
+/* line 8, ../scss/_brand-info.scss */
+.brand-info .box-info {
+  margin-bottom: 10px;
+}
+/* line 14, ../scss/_brand-info.scss */
+.brand-info h3 {
+  text-decoration: underline;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+/* line 20, ../scss/_brand-info.scss */
+.brand-info p {
+  margin: 0;
+  font-family: "Roboto Condensed", sans-serif !important;
+  font-size: 14px;
+  color: #A7A5A6 !important;
+  font-weight: 300;
+}
+
 /* line 1, ../scss/_product.scss */
 .frame {
   position: relative;
@@ -233,22 +258,44 @@ h4 {
 }
 /* line 3, ../scss/_footer.scss */
 .footer-top h2 {
+  font-size: 20px;
   color: #A7A5A6 !important;
+  margin-bottom: 10px;
 }
-/* line 7, ../scss/_footer.scss */
+/* line 9, ../scss/_footer.scss */
 .footer-top img {
-  width: 80px;
-  height: 80px;
+  width: 50px;
+  height: 50px;
 }
-/* line 16, ../scss/_footer.scss */
+/* line 18, ../scss/_footer.scss */
 .footer-top a {
   display: inline-block;
   padding: 5px;
   background: #ecc640;
 }
-/* line 20, ../scss/_footer.scss */
+/* line 22, ../scss/_footer.scss */
 .footer-top a:hover {
   background: #cba314;
+}
+
+/* line 30, ../scss/_footer.scss */
+ul#support {
+  margin: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+/* line 39, ../scss/_footer.scss */
+ul#support li {
+  padding: 10px;
+  list-style: none;
+}
+/* line 43, ../scss/_footer.scss */
+ul#support li img {
+  width: 150px;
+  height: auto;
 }
 
 @media (max-width: 640px) {
@@ -15166,31 +15213,31 @@ iframe.uk-cover {
   }
 }
 /* this was trigger on and off during offcanvas animation */
-/* line 14, ../scss/main.scss */
+/* line 15, ../scss/main.scss */
 .uk-offcanvas {
   display: block;
 }
 
 /* i just add this to my css to support the transform CSS effect */
-/* line 17, ../scss/main.scss */
+/* line 18, ../scss/main.scss */
 .uk-offcanvas-bar {
   transition: all 300ms ease-out;
 }
 
-/* line 19, ../scss/main.scss */
+/* line 20, ../scss/main.scss */
 * {
   font-family: "Oswald", Helvetica, Arial, sans-serif !important;
   font-weight: 400;
   letter-spacing: 1px;
 }
 
-/* line 25, ../scss/main.scss */
+/* line 26, ../scss/main.scss */
 .uk-search-default {
   margin-top: 30px;
   width: 100% !important;
 }
 
-/* line 31, ../scss/main.scss */
+/* line 32, ../scss/main.scss */
 .videowrapper {
   position: relative;
   width: 100%;
@@ -15199,7 +15246,7 @@ iframe.uk-cover {
   margin-bottom: 20px;
 }
 
-/* line 39, ../scss/main.scss */
+/* line 40, ../scss/main.scss */
 .video {
   position: absolute;
   top: 0;
@@ -15208,22 +15255,22 @@ iframe.uk-cover {
   height: 100%;
 }
 
-/* line 48, ../scss/main.scss */
+/* line 49, ../scss/main.scss */
 body {
   padding-top: 80px;
 }
 
-/* line 53, ../scss/main.scss */
+/* line 54, ../scss/main.scss */
 .uk-list > li:nth-child(n+2) {
   margin-top: 0;
 }
 
-/* line 57, ../scss/main.scss */
+/* line 58, ../scss/main.scss */
 #content {
   padding: 30px 0;
 }
 
-/* line 61, ../scss/main.scss */
+/* line 62, ../scss/main.scss */
 .main-title {
   font-size: 2em;
   letter-spacing: 2px;
@@ -15233,12 +15280,12 @@ body {
   padding-left: 15px;
 }
 
-/* line 70, ../scss/main.scss */
+/* line 71, ../scss/main.scss */
 .widget {
   padding-bottom: 20px;
 }
 
-/* line 75, ../scss/main.scss */
+/* line 76, ../scss/main.scss */
 a.category {
   text-align: center;
   display: block;
@@ -15247,23 +15294,23 @@ a.category {
   background: #ecc640;
   color: #202121 !important;
 }
-/* line 84, ../scss/main.scss */
+/* line 85, ../scss/main.scss */
 a.category:hover {
   background: #e2b517 !important;
 }
 
-/* line 90, ../scss/main.scss */
+/* line 91, ../scss/main.scss */
 footer .footer-top {
   color: #BFC7C6;
   padding: 50px 0;
   background: #292a2a;
 }
-/* line 96, ../scss/main.scss */
+/* line 97, ../scss/main.scss */
 footer .footer-bottom {
   padding: 8px;
   background-color: #202121;
 }
-/* line 100, ../scss/main.scss */
+/* line 101, ../scss/main.scss */
 footer .footer-bottom p {
   font-family: "Arial", sans-serif !important;
   font-size: 12px !important;
