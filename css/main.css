@@ -278,21 +278,21 @@ h4 {
   background: #cba314;
 }
 
-/* line 30, ../scss/_footer.scss */
+/* line 28, ../scss/_footer.scss */
 ul#support {
   margin: 0;
-  margin: 0;
+  padding: 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
-/* line 39, ../scss/_footer.scss */
+/* line 37, ../scss/_footer.scss */
 ul#support li {
   padding: 10px;
   list-style: none;
 }
-/* line 43, ../scss/_footer.scss */
+/* line 41, ../scss/_footer.scss */
 ul#support li img {
   width: 150px;
   height: auto;
@@ -339,6 +339,16 @@ ul#support li img {
   /* line 40, ../scss/_resv.scss */
   article img {
     display: none;
+  }
+
+  /* line 48, ../scss/_resv.scss */
+  ul#support li {
+    padding: 10px;
+  }
+  /* line 52, ../scss/_resv.scss */
+  ul#support li img {
+    width: 100px;
+    height: auto;
   }
 }
 /*! UIkit 3.0.0-rc.19 | http://www.getuikit.com | (c) 2014 - 2018 YOOtheme | MIT License */
