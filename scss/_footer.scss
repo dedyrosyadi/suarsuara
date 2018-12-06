@@ -1,48 +1,48 @@
 .footer-top {
-	border-top: solid $color-yellow 6px;
-	h2 {
-		font-size: 20px;
-		color : $color-light-grey !important;
-		margin-bottom: 10px;
-	}
+  border-top: solid $color-yellow 6px;
+  h2 {
+    font-size: 20px;
+    color : $color-light-grey !important;
+    margin-bottom: 10px;
+  }
 
-	img {
-		width: 50px;
-		height: 50px;
-	}	
-	.socmed-bottom {
-		
-		
-	}
+  img {
+    width: 50px;
+    height: 50px;
+  } 
+  .socmed-bottom {
+    
+    
+  }
 
-	a {
-		display: inline-block;
-		padding: 5px;
-		background: $color-yellow;
-		&:hover {
-			background: darken($color-yellow,15%);
-		}
-	}
+  a {
+    display: inline-block;
+    padding: 5px;
+    background: $color-yellow;
+    &:hover {
+      background: darken($color-yellow,15%);
+    }
+  }
 }
 
 ul#support {
-	margin: 0; 
-	padding: 0;
-    display: flex;
-    flex-wrap:wrap;
-    justify-content: center;
-    align-items: center;
+  margin: 0; 
+  padding: 0;
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: center;
+  align-items: center;
 
 
-	li {
-		padding: 10px;
-		list-style: none;
+  li {
+    padding: 10px;
+    list-style: none;
 
-		img {
-			width: 150px;
-			height: auto;
-		}
-	}
+    img {
+      width: 150px;
+      height: auto;
+    }
+  }
 }
 
 
