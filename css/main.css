@@ -15283,7 +15283,7 @@ body {
   margin-top: 0;
 }
 
-/* line 48, ../scss/main.scss */
+/* line 47, ../scss/main.scss */
 .video {
   position: absolute;
   top: 0;
@@ -15292,12 +15292,12 @@ body {
   height: 100%;
 }
 
-/* line 57, ../scss/main.scss */
+/* line 55, ../scss/main.scss */
 #content {
   padding: 30px 0;
 }
 
-/* line 61, ../scss/main.scss */
+/* line 59, ../scss/main.scss */
 .main-title {
   font-size: 2.3em;
   letter-spacing: 2px;
@@ -15307,12 +15307,12 @@ body {
   padding-left: 15px;
 }
 
-/* line 70, ../scss/main.scss */
+/* line 68, ../scss/main.scss */
 .widget {
   padding-bottom: 20px;
 }
 
-/* line 74, ../scss/main.scss */
+/* line 72, ../scss/main.scss */
 a.category {
   -moz-transition-duration: 0.9s;
   -o-transition-duration: 0.9s;
@@ -15325,39 +15325,19 @@ a.category {
   background: #ecc640;
   color: #1b1b1b !important;
 }
-/* line 83, ../scss/main.scss */
+/* line 81, ../scss/main.scss */
 a.category:hover {
   background: #292104 !important;
   color: #fff !important;
 }
 
-/* line 90, ../scss/main.scss */
-footer .footer-top {
-  color: #BFC7C6;
-  padding: 50px 0;
-  background: #292a2a;
-}
-/* line 96, ../scss/main.scss */
-footer .footer-bottom {
-  padding: 8px;
-  background-color: #1b1b1b;
-}
-/* line 100, ../scss/main.scss */
-footer .footer-bottom p {
-  font-family: "Arial", sans-serif !important;
-  font-size: 12px !important;
-  font-weight: 300px !important;
-  margin: 0;
-  text-align: center;
-}
-
-/* line 110, ../scss/main.scss */
+/* line 87, ../scss/main.scss */
 .uk-search-default {
   margin-top: 30px;
   width: 100% !important;
 }
 
-/* line 115, ../scss/main.scss */
+/* line 92, ../scss/main.scss */
 .videowrapper {
   position: relative;
   width: 100%;
