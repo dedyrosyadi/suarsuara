@@ -23,6 +23,7 @@
 /* line 20, ../scss/_nav.scss */
 #nav-frame {
   background: #222222;
+  box-shadow: #a6a6a6 0px 1px 3px 0px;
   border-bottom: solid #ecc640 6px;
   position: fixed;
   z-index: 1;
@@ -31,18 +32,18 @@
   top: 0px;
 }
 
-/* line 31, ../scss/_nav.scss */
+/* line 32, ../scss/_nav.scss */
 .socmed-top img {
   width: 40px !important;
   height: 40px !important;
 }
 
-/* line 37, ../scss/_nav.scss */
+/* line 38, ../scss/_nav.scss */
 .uk-navbar-container {
   height: 60px !important;
 }
 
-/* line 42, ../scss/_nav.scss */
+/* line 43, ../scss/_nav.scss */
 .uk-navbar-nav a {
   font-weight: 400 !important;
   min-height: 60px !important;
@@ -50,25 +51,25 @@
   font-size: 18px !important;
   color: #ecc640 !important;
 }
-/* line 49, ../scss/_nav.scss */
+/* line 50, ../scss/_nav.scss */
 .uk-navbar-nav a:hover {
   background: #ecc640;
   color: #fff !important;
 }
 
-/* line 56, ../scss/_nav.scss */
+/* line 57, ../scss/_nav.scss */
 .uk-navbar-dropdown {
   margin-top: 0 !important;
   padding: 15px !important;
 }
-/* line 60, ../scss/_nav.scss */
+/* line 61, ../scss/_nav.scss */
 .uk-navbar-dropdown a {
   min-height: 30px !important;
   font-size: 14px !important;
   color: #15171D !important;
   font-weight: 400;
 }
-/* line 67, ../scss/_nav.scss */
+/* line 68, ../scss/_nav.scss */
 .uk-navbar-dropdown a:hover {
   background: none;
   color: #ecc640 !important;
@@ -291,48 +292,48 @@ ul#support li img {
     padding-top: 50px !important;
   }
 
-  /* line 5, ../scss/_resv.scss */
+  /* line 4, ../scss/_resv.scss */
   .uk-navbar-container {
     position: fixed;
   }
 
-  /* line 11, ../scss/_resv.scss */
+  /* line 6, ../scss/_resv.scss */
   .main-menu {
     display: none !important;
   }
 
-  /* line 18, ../scss/_resv.scss */
+  /* line 8, ../scss/_resv.scss */
   .menu-l, .menu-r, .menu-c {
     display: block !important;
     margin: 0 !important;
   }
 
-  /* line 24, ../scss/_resv.scss */
+  /* line 13, ../scss/_resv.scss */
   .socmed-top img {
     height: 30px !important;
     width: 30px !important;
   }
 
-  /* line 29, ../scss/_resv.scss */
+  /* line 18, ../scss/_resv.scss */
   .footer-top h2 {
     font-size: 14px;
   }
-  /* line 33, ../scss/_resv.scss */
+  /* line 22, ../scss/_resv.scss */
   .footer-top img {
     width: 40px;
     height: 40px;
   }
 
-  /* line 40, ../scss/_resv.scss */
+  /* line 29, ../scss/_resv.scss */
   article img {
     display: none;
   }
 
-  /* line 48, ../scss/_resv.scss */
+  /* line 37, ../scss/_resv.scss */
   ul#support li {
     padding: 10px;
   }
-  /* line 52, ../scss/_resv.scss */
+  /* line 41, ../scss/_resv.scss */
   ul#support li img {
     width: 100px;
     height: auto;
