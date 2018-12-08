@@ -10,6 +10,15 @@
 @import "resv";
 @import "uikit";
 
+@font-face {
+    font-family: 'RobotoCondensed';
+    src: url('../fonts/Roboto_Condensed/RobotoCondensed-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: url('../fonts/Oswald/Oswald-Regular.ttf');
+}
 
 /* this was trigger on and off during offcanvas animation */
 .uk-offcanvas { display: block; } 

@@ -1,6 +1,6 @@
 article {
 	p {
-		font-family: "Roboto Condensed", sans-serif !important;	
+		font-family: "RobotoCondensed" !important;	
 		color: $color-light-grey !important;
 	}
 	
@@ -22,12 +22,9 @@ article {
 	.post-date {
 		display: inline-block;
 		font-weight: 400 !important;
-		font-size: 10px;
+		font-size: 12px;
 		letter-spacing: .5px;
 		margin-bottom: 10px;
-		// background: lighten($color-black, 80%);
-		// padding: 2px;
-		// border-radius: 3px;
 	}
 
 	border-bottom: dashed 1px #e3e3e3;
@@ -36,23 +33,19 @@ article {
 
 	&:last-child {
 		border-bottom: 0 !important;
-
 	}
 }		
 
 a.read-more {
-	display: inline-block;
+	float:left;
+	display: block;
 	line-height: 1;
-	font-size: 12px;
-	// text-decoration: underline;
-	font-style: italic;
-	padding: 5px;
+	padding: 5px 10px;
 	background: $color-yellow;
 	color: #fff !important;
-	// font-weight: 400;
 
 	&:hover {
-		background: darken($color-yellow,15%);
+		background: darken($color-yellow,8%);
 		color:#fff !important;
 
 	}

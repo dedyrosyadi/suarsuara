@@ -1,23 +1,12 @@
 @media (max-width: 640px) {
-  body {
-    padding-top: 50px !important;
-  }
-  .uk-navbar-container {
-    // height: 30px !important;
-    position: fixed;
-    // display: none !important;
-  }
+  body {padding-top: 50px !important;}
 
-  .main-menu {
-  	display: none !important;
-  }
-  .uk-navbar-nav a {  
-    // min-height: 30px !important;
-    // font-size: 14px !important;
-  }
+  .uk-navbar-container { position: fixed;}
+
+  .main-menu {display: none !important;}
+  
   .menu-l, .menu-r, .menu-c {
     display: block !important;
-    // text-align: center;
     margin:0 !important;
   }
 
