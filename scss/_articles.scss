@@ -2,13 +2,14 @@ article {
 	p {
 		font-family: "RobotoCondensed" !important;	
 		color: $color-light-grey !important;
+		line-height: 20px !important;
+		margin: 0 !important;
 	}
 	
 	h2.article-title {
-		
+		margin-bottom: 5px !important;
 		font-size: 1.5em;
 		text-transform: uppercase !important;
-		margin-bottom: 2px !important;
 		line-height: 1;
 		font-weight: 200;
 		a {
@@ -26,7 +27,8 @@ article {
 		letter-spacing: .5px;
 		margin-bottom: 10px;
 	}
-
+	
+	padding: 0;	
 	border-bottom: dashed 1px #e3e3e3;
 	padding-bottom: 20px;
 	margin-bottom: 20px;
@@ -37,16 +39,22 @@ article {
 }		
 
 a.read-more {
+	font-family: "RobotoCondensed" !important;
 	float:left;
+	font-weight: 600;
+	margin: 10px 0 !important;
 	display: block;
 	line-height: 1;
-	padding: 5px 10px;
-	background: $color-yellow;
-	color: #fff !important;
+	// padding: 5px 8px;
+	// background: $color-yellow;
+	// color: #fff !important;
+	color:$color-yellow !important;
+
 
 	&:hover {
-		background: darken($color-yellow,8%);
-		color:#fff !important;
+		// background: darken($color-yellow,8%);
+		text-decoration: underline !important;
+		// color:#fff !important;
 
 	}
 }

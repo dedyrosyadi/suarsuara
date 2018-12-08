@@ -1,6 +1,5 @@
 #menuresv li {
 	padding: 15px 0 !important;
-
 }
 
 .menu-l {
@@ -10,7 +9,6 @@
 .menu-c {
 	float: right !important;
 }
-
 
 .uk-navbar-toggle {
     min-height: 50px !important;
@@ -41,6 +39,7 @@
 
 .uk-navbar-nav {
 	a {
+		@include transition-duration(.5s);
 		font-weight: 400 !important;
 		min-height: 60px !important;
 		letter-spacing: 1px;
@@ -48,6 +47,7 @@
 		color:$color-yellow !important;
 
 		&:hover {
+			@include transition-duration(.5s);
 			background:$color-yellow;
 			color:#fff !important;
 		}
