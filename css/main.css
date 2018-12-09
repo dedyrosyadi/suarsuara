@@ -6165,8 +6165,8 @@ ul.uk-nav-sub {
 .uk-dotnav > * > * {
   display: block;
   box-sizing: border-box;
-  width: 10px;
-  height: 10px;
+  width: 15px !important;
+  height: 15px !important;
   border-radius: 50%;
   background: transparent;
   /* 1 */
@@ -15254,36 +15254,42 @@ iframe.uk-cover {
   font-family: 'Oswald';
   src: url("../fonts/Oswald/Oswald-Regular.ttf");
 }
+/* line 26, ../scss/main.scss */
+.uk-slideshow-nav {
+  position: relative;
+  bottom: 30px;
+}
+
 /* this was trigger on and off during offcanvas animation */
-/* line 29, ../scss/main.scss */
+/* line 33, ../scss/main.scss */
 .uk-offcanvas {
   display: block;
 }
 
 /* i just add this to my css to support the transform CSS effect */
-/* line 32, ../scss/main.scss */
+/* line 36, ../scss/main.scss */
 .uk-offcanvas-bar {
   transition: all 300ms ease-out;
 }
 
-/* line 34, ../scss/main.scss */
+/* line 38, ../scss/main.scss */
 * {
   font-family: "Oswald", Helvetica, Arial, sans-serif !important;
   font-weight: 400;
   letter-spacing: .5px;
 }
 
-/* line 41, ../scss/main.scss */
+/* line 45, ../scss/main.scss */
 body {
   padding-top: 60px;
 }
 
-/* line 43, ../scss/main.scss */
+/* line 47, ../scss/main.scss */
 .uk-list > li:nth-child(n+2) {
   margin-top: 0;
 }
 
-/* line 47, ../scss/main.scss */
+/* line 51, ../scss/main.scss */
 .video {
   position: absolute;
   top: 0;
@@ -15292,12 +15298,12 @@ body {
   height: 100%;
 }
 
-/* line 55, ../scss/main.scss */
+/* line 59, ../scss/main.scss */
 #content {
   padding: 30px 0;
 }
 
-/* line 59, ../scss/main.scss */
+/* line 63, ../scss/main.scss */
 .main-title {
   font-size: 2.3em;
   letter-spacing: 2px;
@@ -15307,12 +15313,12 @@ body {
   padding-left: 15px;
 }
 
-/* line 68, ../scss/main.scss */
+/* line 72, ../scss/main.scss */
 .widget {
   padding-bottom: 20px;
 }
 
-/* line 72, ../scss/main.scss */
+/* line 76, ../scss/main.scss */
 a.category {
   -moz-transition-duration: 0.9s;
   -o-transition-duration: 0.9s;
@@ -15325,19 +15331,19 @@ a.category {
   background: #ecc640;
   color: #1b1b1b !important;
 }
-/* line 81, ../scss/main.scss */
+/* line 85, ../scss/main.scss */
 a.category:hover {
   background: #292104 !important;
   color: #fff !important;
 }
 
-/* line 87, ../scss/main.scss */
+/* line 91, ../scss/main.scss */
 .uk-search-default {
   margin-top: 30px;
   width: 100% !important;
 }
 
-/* line 92, ../scss/main.scss */
+/* line 96, ../scss/main.scss */
 .videowrapper {
   position: relative;
   width: 100%;

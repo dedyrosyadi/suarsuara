@@ -4555,8 +4555,8 @@ ul.uk-nav-sub {
 .uk-dotnav > * > * {
   display: block;
   box-sizing: border-box;
-  width: 10px;
-  height: 10px;
+  width: 15px !important;
+  height: 15px !important;
   border-radius: 50%;
   background: transparent;
   /* 1 */
