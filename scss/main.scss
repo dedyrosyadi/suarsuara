@@ -28,19 +28,25 @@
   bottom: 30px;
 }
 
-
 /* this was trigger on and off during offcanvas animation */
 .uk-offcanvas { display: block; } 
 
 /* i just add this to my css to support the transform CSS effect */
 .uk-offcanvas-bar { transition: all 300ms ease-out; } 
 
-* {
-  font-family: "Oswald", Helvetica, Arial, sans-serif !important;
-  font-weight: 400;
-  letter-spacing: .5px;
+// * {
+//   font-family: "Oswald", Helvetica, Arial, sans-serif !important;
+//   font-weight: 400;
+//   letter-spacing: .5px;
+// }
+
+article p, a.read-more, .brand-info p {
+  font-family: "Roboto Condensed" !important;
 }
 
+nav a, .article-title, .main-title, a.category, .list-events, h4, .footer-top h2, .post-date{
+  font-family: "Oswald" !important;
+}
 
 body { padding-top: 60px;}
 
