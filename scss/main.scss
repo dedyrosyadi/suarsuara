@@ -44,7 +44,7 @@ article p, article span, a.read-more, .brand-info p {
   font-family: "Roboto Condensed" !important;
 }
 
-nav a, h3, .article-title, .main-title, a.category, .list-events, h4, .footer-top h2, .post-date, .frame span {
+#menuresv, nav a, h1, h2, h3, .article-title, .main-title, a.category, .list-events, h4, .footer-top h2, .post-date, .frame span {
   font-family: "Oswald" !important;
 }
 
@@ -67,6 +67,7 @@ body { padding-top: 60px;}
 }
 
 .main-title {
+  text-transform: uppercase;
   font-size: 2.3em;
   letter-spacing: 2px;
   font-weight: 200 !important;

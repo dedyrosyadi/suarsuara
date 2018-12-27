@@ -39,7 +39,7 @@
 
 .uk-navbar-nav {
 	a {
-		@include transition-duration(.5s);
+		@include transition-duration(.5s !important);
 		font-weight: 400 !important;
 		min-height: 60px !important;
 		letter-spacing: 1px;
@@ -47,7 +47,6 @@
 		color:$color-yellow !important;
 
 		&:hover {
-			@include transition-duration(.5s);
 			background:$color-yellow;
 			color:#fff !important;
 		}
