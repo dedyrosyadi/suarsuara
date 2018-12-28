@@ -34,11 +34,10 @@
 /* i just add this to my css to support the transform CSS effect */
 .uk-offcanvas-bar { transition: all 300ms ease-out; } 
 
-// * {
-//   font-family: "Oswald", Helvetica, Arial, sans-serif !important;
-//   font-weight: 400;
-//   letter-spacing: .5px;
-// }
+
+.uk-logo {
+  max-width: 180px !important;
+}
 
 p, article p, article span, a.read-more, .brand-info p {
   font-family: "Roboto Condensed" !important;
