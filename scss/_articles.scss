@@ -6,7 +6,7 @@ article {
 
 	}
 	p {
-		color: $color-light-grey !important;
+		// color: $color-light-grey !important;
 		line-height: 20px !important;
 		margin: 0 0 15px 0 !important;
 
@@ -20,7 +20,8 @@ article {
 		line-height: 1;
 		font-weight: 200;
 		a {
-			color: $color-light-grey !important;
+			// color: $color-black !important;
+			color: #666 !important;
 			&:hover {
 				color: $color-yellow !important;
 			}
