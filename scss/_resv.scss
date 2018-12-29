@@ -21,8 +21,8 @@
     }
 
     img {
-      width: 30px;
-      height: 30px;
+      width: 30px !important;
+      height: 30px !important;
     } 
   }
 
@@ -35,9 +35,9 @@
   ul.support {
     li {
       padding: 10px;
-
+      max-width: 100px;
       img {
-        width: 100px !important;
+        width: 100% !important;
         height: auto !important;
       }
     }
