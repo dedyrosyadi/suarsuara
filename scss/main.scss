@@ -1,4 +1,4 @@
-// @import "uikit-rtl.min"; 
+// @import "uikit-rtl.min";
 @import "compass/css3";
 @import "var";
 @import "nav";
@@ -29,10 +29,10 @@
 }
 
 /* this was trigger on and off during offcanvas animation */
-.uk-offcanvas { display: block; } 
+.uk-offcanvas { display: block; }
 
 /* i just add this to my css to support the transform CSS effect */
-.uk-offcanvas-bar { transition: all 300ms ease-out; } 
+.uk-offcanvas-bar { transition: all 300ms ease-out; }
 
 
 .uk-logo {
@@ -100,7 +100,7 @@ a.category {
 	@include transition-duration(.9s);
 	text-align: center;
 	display: block;
-	margin-bottom: 5px !important; 
+	margin-bottom: 5px !important;
 	padding: 5px ;
 	background: $color-yellow;
 	color: $color-dark-grey !important;
