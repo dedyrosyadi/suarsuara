@@ -28,6 +28,10 @@
   bottom: 30px;
 }
 
+em {
+  color: inherit !important;
+}
+
 /* this was trigger on and off during offcanvas animation */
 .uk-offcanvas { display: block; }
 

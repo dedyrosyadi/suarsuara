@@ -9,11 +9,9 @@ article {
 		// color: $color-light-grey !important;
 		line-height: 20px !important;
 		margin: 0 0 15px 0 !important;
-
 	}
-	
-	h2.article-title {
 
+	h2.article-title {
 		margin-bottom: 5px !important;
 		font-size: 1.5em;
 		text-transform: uppercase !important;
@@ -36,8 +34,8 @@ article {
 		letter-spacing: .5px;
 		margin-bottom: 10px;
 	}
-	
-	padding: 0;	
+
+	padding: 0;
 	border-bottom: dashed 1px #e3e3e3;
 	padding-bottom: 20px;
 	margin-bottom: 20px;
@@ -45,7 +43,7 @@ article {
 	&:last-child {
 		border-bottom: 0 !important;
 	}
-}		
+}
 
 a.read-more {
 	float:left;
