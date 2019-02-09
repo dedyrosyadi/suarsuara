@@ -44,11 +44,21 @@ em {
   position: absolute !important;
 }
 
-p, article p, article span, a.read-more, .brand-info p {
+.btn-show {
+  margin-top: 10px;
+  float: right;
+
+}
+
+p, article p, article span, a.read-more, .brand-info p, .post-category, .post-date, .btn-show {
   font-family: "Roboto Condensed" !important;
 }
 
-.contact, #menuresv, nav a, h1, h2, h3, .article-title, .main-title, a.category, .list-events, h4, .footer-top h2, .post-date, .frame span {
+.contact, #menuresv, nav a, h1, h2, h3,
+.article-title, .main-title,
+a.category, .list-events, h4,
+.footer-top h2,
+.frame span {
   font-family: "Oswald" !important;
 }
 
