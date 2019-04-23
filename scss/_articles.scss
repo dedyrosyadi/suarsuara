@@ -13,16 +13,15 @@ article {
 		// color: $color-light-grey !important;
 		line-height: 20px !important;
 		margin: 0 0 15px 0 !important;
+		font-size: 14px !important;
 	}
 
 	h2.article-title {
 		margin-bottom: 5px !important;
-		font-size: 1.5em;
+		font-size: 1.3em;
 		text-transform: uppercase !important;
 		line-height: 1;
-		font-weight: 200;
 		a {
-			// color: $color-black !important;
 			color: #666 !important;
 			&:hover {
 				color: $color-yellow !important;
@@ -36,7 +35,7 @@ article {
 		text-transform: uppercase;
 		display: inline-block;
 		font-weight: 100 !important;
-		font-size: 12px;
+		font-size: 11px;
 		color:#7d7d7d;
 		letter-spacing: .5px;
 		margin-bottom: 10px;
@@ -55,6 +54,7 @@ article {
 a.read-more {
 	float:left;
 	font-weight: 400;
+	font-size: 14px !important;
 	margin: 10px 0 !important;
 	display: block;
 	line-height: 1;

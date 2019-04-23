@@ -2,7 +2,7 @@
 
   body {padding-top: 50px !important;}
 
-  .uk-navbar-container { position: fixed;}
+  .uk-navbar-container {position: fixed;}
 
   .main-menu {display: none !important;}
   
@@ -32,10 +32,10 @@
     }
   }
 
-  ul.support {
+  ul.list-support {
     li {
       padding: 10px;
-      max-width: 100px;
+      max-width: 80px;
       img {
         width: 100% !important;
         height: auto !important;

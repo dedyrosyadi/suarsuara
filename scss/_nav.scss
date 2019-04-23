@@ -40,10 +40,10 @@
 .uk-navbar-nav {
 	a {
 		@include transition-duration(.5s !important);
-		font-weight: 400 !important;
+		font-weight: 100 !important;
 		min-height: 60px !important;
-		letter-spacing: 1px;
-		font-size: 18px !important;
+		letter-spacing: 1.5px;
+		font-size: 16px !important;
 		color:$color-yellow !important;
 
 		&:hover {
