@@ -1,13 +1,11 @@
 footer {
   h2 {
     font-size: 1.8em;
-    // color : $color-yellow !important;
     margin: 0 0 20px 0 !important;
     letter-spacing: 2px;
   }
 
   h3 {
-    // color : $color-yellow !important;
     font-size: 1em;
     margin : 10px 0 0 0;
     letter-spacing: 1.5px;
@@ -43,19 +41,17 @@ ul.list-support {
     list-style: none;
 
     img {
-      width: 80px;
+      width: 100px;
       height: auto;
     }
   }
 }
 
 .footer-top {
-  // padding: 50px 0;
   background:#2F2F2F !important;
 
   p {
-      // color : #e3e3e3 !important;
-      font-size: 14px !important; 
+    font-size: 14px !important; 
   }
 
   img {
@@ -72,8 +68,6 @@ ul.list-support {
     padding: 50px;
     background: #2f2f2f;
   }
-
-
 
   ul.socmed {
     padding: 0 !important;  
