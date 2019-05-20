@@ -10,7 +10,15 @@
 @import "resv";
 @import "uikit";
 
+#menuresv {
+  a {
+    color : #e3e3e3 !important;
+  }
+}
 
+.uk-icon, .uk-search-icon {
+  color: #fff !important;
+}
 
 // font setting
 @font-face {
